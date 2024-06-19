@@ -2,8 +2,9 @@ import  { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import Menu from './pages/Menu';
-import Header from './pages/User';
+import Header from './pages/Header';
 import Cart from './pages/Cart';
+
 
 
 

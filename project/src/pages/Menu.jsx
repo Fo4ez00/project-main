@@ -20,11 +20,7 @@ const Menu = () => {
     dispatch(addItem({ id, name, imageUrl, unitPrice }));
 };
 
-  // useEffect(() => {
-  //   console.log("Status:", status);
-  //   console.log("Error:", error);
-  //   console.log("Data:", menuData);
-  // }, [status, menuData, error]);
+  
 
   return (
     <div>
@@ -42,7 +38,7 @@ const Menu = () => {
               <div>
                 <p>{item.name}</p>
                 <p>Ingredients: {item.ingredients.join(", ")}</p>
-                <p>Price: {item.unitPrice}</p>
+                <p>Price: ${item.unitPrice}</p>
                 {item.soldOut ? <p>Sold Out</p> : <button onClick={() => handleAddToCart(item)}>Add to Cart</button>}
               </div>
             </li>

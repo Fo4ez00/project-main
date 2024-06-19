@@ -8,6 +8,7 @@ const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);
   const status = useSelector((state) => state.cart.status);
   const error = useSelector((state) => state.cart.error);
+  
 
   useEffect(() => {
     dispatch(fetchCartItemsAsync());

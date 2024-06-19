@@ -6,8 +6,8 @@ const Header = ({ user }) => {
     <header>
       <h1>PIZZA DAY</h1>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/cart">Cart</Link>
+      <Link to="/" className="nav-link">Pizza</Link>
+      <Link to="/cart" className="nav-link">Cart</Link>
       </nav>
       <input
         type="search"

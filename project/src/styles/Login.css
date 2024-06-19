@@ -10,7 +10,7 @@ header {
   margin-left: auto;
   padding: 8px;
   border: 1px solid #ccc;
-  color: yellow;
+  color: rgb(149, 240, 88);
 }
 
 main {
@@ -22,5 +22,5 @@ form {
 }
 
 h1.text {
-  color: yellow;
+  color: rgb(92, 201, 50);
 }
