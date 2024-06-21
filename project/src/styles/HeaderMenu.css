@@ -1,32 +1,53 @@
-
-
-
-nav {
-  flex-grow: 1; /* Ensure nav takes up remaining space */
+.header {
+  background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-meat-slices-leaves_605379-6503.jpg?w=740');
+  color: white; /* Цвет текста */
+  padding: 10px; /* Внутренний отступ заголовка */
   display: flex;
-  justify-content: center; /* Center-align links */
+  justify-content: space-between; /* Распределение элементов по краям контейнера */
+  align-items: center; /* Выравнивание элементов по вертикали */
 }
 
-nav a {
+.nav {
+  display: flex;
+  align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  padding-right: 100px; /* Правый отступ для nav-left */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 20px 15px; /* Паддинг сверху и снизу, больше слева и справа */
+  transition: background-color 0.3s;
+}
+
+.user-info {
+  margin-left: 600px;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  padding-left: 10px; /* Левый отступ для nav-right */
+}
+
+.nav-linkdelete {
   text-decoration: none;
   color: white;
   padding: 10px;
   transition: background-color 0.3s;
 }
 
-nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-}
-
 .search-input_Menu {
-  margin-left: auto;
-  padding: 8px;
+  max-width: 300px; /* Максимальная ширина инпута */
+  padding: 8px; /* Паддинг сверху и снизу */
   border: 1px solid #ccc;
   border-radius: 4px;
-}
-
-.user-info {
-  margin-left: 10px;
-  color: black;
+  background-color: #f2f2f2; /* Цвет фона инпута */
+  font-size: 14px; /* Размер шрифта */
 }
