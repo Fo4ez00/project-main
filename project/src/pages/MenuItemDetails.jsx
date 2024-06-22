@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import "../styles/MenuItemDetails.css";
+// import "../styles/MenuItemDetails.css";
 
 const MenuItemDetails = () => {
   const { id } = useParams();
